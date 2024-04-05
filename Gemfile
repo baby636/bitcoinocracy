@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.4.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2.2'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.1'
 
 # Use sqlite3 as the database for Active Record
 group :development do
@@ -15,37 +15,37 @@ end
 
 group :test do
   gem 'rspec'
-  gem 'capybara'
-  gem 'poltergeist'
+  gem 'capybara', '>= 2.14.1'
+  gem 'poltergeist', '>= 1.16.0'
   gem 'database_cleaner'
 end
 
 gem 'pg'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 5.0.8'
 gem 'bourbon'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.2.2'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.2'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
 gem 'bitcoin-cigs'
-gem 'slim-rails'
-gem 'twitter-bootstrap-rails'
+gem 'slim-rails', '>= 3.1.3'
+gem 'twitter-bootstrap-rails', '>= 5.0.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -60,18 +60,18 @@ gem 'twitter-bootstrap-rails'
 # gem 'debugger', group: [:development, :test]
 
 gem 'puma'
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 gem 'rails_12factor'
 
 gem 'friendly_id', '~> 5.1.0'
-gem 'meta-tags'
-gem 'kaminari'
+gem 'meta-tags', '>= 2.16.0'
+gem 'kaminari', '>= 1.0.0'
 gem 'bootstrap-kaminari-views'
-gem 'administrate', '~> 0.3.0'
+gem 'administrate', '~> 0.6.0'
 gem 'aasm'
 gem 'audited'
-gem 'devise'
+gem 'devise', '>= 4.7.0'
 gem 'sentry-raven'
 gem 'slack-notifier'
-gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv-rails', '>= 2.7.6', groups: [:development, :test]
 gem 'auto_strip_attributes'
