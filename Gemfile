@@ -15,7 +15,7 @@ end
 
 group :test do
   gem 'rspec'
-  gem 'capybara'
+  gem 'capybara', '>= 2.14.1'
   gem 'poltergeist'
   gem 'database_cleaner'
 end
