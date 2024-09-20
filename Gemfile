@@ -59,7 +59,7 @@ gem 'twitter-bootstrap-rails'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'puma'
+gem 'puma', '>= 5.6.9'
 gem 'responders', '~> 2.0'
 gem 'rails_12factor'
 
