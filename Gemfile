@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.4.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2.2'
+gem 'rails', '~> 7.0.0'
 
 # Use sqlite3 as the database for Active Record
 group :development do
@@ -22,7 +22,7 @@ end
 
 gem 'pg'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'bourbon'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -65,9 +65,9 @@ gem 'rails_12factor'
 
 gem 'friendly_id', '~> 5.1.0'
 gem 'meta-tags'
-gem 'kaminari'
+gem 'kaminari', '>= 1.0.0'
 gem 'bootstrap-kaminari-views'
-gem 'administrate', '~> 0.3.0'
+gem 'administrate', '~> 0.18.0'
 gem 'aasm'
 gem 'audited'
 gem 'devise'
