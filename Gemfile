@@ -71,7 +71,7 @@ gem 'administrate', '~> 0.3.0'
 gem 'aasm'
 gem 'audited'
 gem 'devise'
-gem 'sentry-raven'
+gem 'sentry-raven', '>= 3.0.0'
 gem 'slack-notifier'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'auto_strip_attributes'
